@@ -1,0 +1,13 @@
+.centro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botao-carta {
+  background-color: #ff7aa2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
