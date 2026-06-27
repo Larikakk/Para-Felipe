@@ -1,13 +1,86 @@
-.centro {
-  text-align: center;
-  margin-top: 20px;
+body {
+  background-color: rgb(252, 193, 202);
+  overflow-x: hidden;
+  
+
 }
 
-.botao-carta {
-  background-color: #ff7aa2;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 12px;
-  cursor: pointer;
+.coracoes {
+  display: none;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.coracoes.ativo {
+  display: block;
+}
+
+.coracoes span {
+  position: absolute;
+  top: -80px;
+  font-size: 1.8rem;
+  animation: cair 4.5s linear forwards;
+  opacity: 0;
+}
+
+.coracoes span:nth-child(1) {
+  left: 10%;
+  animation-duration: 4s;
+}
+
+.coracoes span:nth-child(2) {
+  left: 28%;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
+
+.coracoes span:nth-child(3) {
+  left: 46%;
+  animation-duration: 4.3s;
+  animation-delay: 0.1s;
+}
+
+.coracoes span:nth-child(4) {
+  left: 64%;
+  animation-duration: 5.2s;
+  animation-delay: 0.3s;
+}
+
+.coracoes span:nth-child(5) {
+  left: 82%;
+  animation-duration: 4.8s;
+  animation-delay: 0.15s;
+}
+
+@keyframes cair {
+  0% {
+    transform: translate3d(0, -80px, 0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 110vh, 0) rotate(360deg);
+    opacity: 0;
+  }
+}
+h1 
+{
+  text-align: center;
+  font-size: 30px;
+  color:rgb(248, 87, 87);
+  font-family: 'cursive', cursive; font-weight: bold;
+}
+p
+{
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'arial', sans-serif;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
