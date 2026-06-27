@@ -1,7 +1,7 @@
 body {
-  background-color: rgb(252, 193, 202);
+  background-color: rgb(255, 174, 198);
   overflow-x: hidden;
-   border: 5px solid rgb(248, 87, 87);
+   border: 5px solid rgb(255, 74, 128);
   
 
 }
@@ -75,13 +75,18 @@ h1
   color:rgb(248, 87, 87);
   font-family: 'cursive', cursive; font-weight: bold;
 }
+h3
+{
+  text-align: justify;
+  font-size: 40px;
+  font-family: 'arial', sans-serif;
+}
 p
 {
   text-align: justify;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'arial', sans-serif;
-  background-color: rgb(255, 255, 255, 0.5);
-  padding: 5px;
+
 }
 img {
   display: block;
@@ -95,4 +100,19 @@ body {
  border-style: dotted;
  border-radius: 20px;
  border-width: 10px;
+}
+.centro {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: rgb(252, 144, 176);
+  color: white;
+  border: solid 5px rgb(255, 249, 249);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
