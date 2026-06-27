@@ -55,6 +55,25 @@ body {
   animation-delay: 0.15s;
 }
 
+  .coracoes span:nth-child(6) {
+  left: 90%;
+  animation-duration: 3.8s;
+  animation-delay: 0.7s;
+}
+
+
+  .coracoes span:nth-child(7) {
+  left: 46%;
+  animation-duration: 3.0s;
+  animation-delay: 0.12s;
+}
+
+ .coracoes span:nth-child(8) {
+  left: 10%;
+  animation-duration: 5s;
+  animation-delay: 0.3s;
+}
+
 @keyframes cair {
   0% {
     transform: translate3d(0, -80px, 0) rotate(0deg);
